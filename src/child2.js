@@ -3,7 +3,7 @@ import counterReducer from './counterReducer';
 
 const Child2 = () => {
 
-    let [state , dispatch] = useReducer(counterReducer , 1)
+    let [state , dispatch] = useReducer(counterReducer , 0)
     //console.log(state)
     return(
 
