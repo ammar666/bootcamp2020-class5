@@ -4,7 +4,8 @@ import './App.css';
 import CounterContext from './CounterContext';
 
 function App() {
-  let countState = useState(1)
+  let countState = useState(0)
+
   return (
     <CounterContext.Provider value = {countState}>
       <div className = {`box`} >
